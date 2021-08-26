@@ -1,0 +1,322 @@
+body {
+    font-family: "Montserrat-Regular", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+
+    background: #FFFFFF;
+
+    max-width: 1440px;
+    max-height: 4470px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #AE7C78;
+}
+
+li {
+    list-style: none;
+}
+
+.page-header {
+    max-width: 1440px;
+    max-height: 64px;
+    padding-top: 25px;
+}
+
+.main-nav {
+    padding: 12px 0;
+
+    border-top: 1px solid #AE7C78;
+    border-bottom: 1px solid #AE7C78;
+}
+
+.main-heading {
+    font-family: "PlayfairDisplay-Regular", serif;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+}
+
+.cursive {
+    font-family: "PlayfairDisplay-Italic", serif;
+    font-style: italic;
+}
+
+.link-nav a, .order-steps p, .title-reviews, .reviews p {
+    text-align: center;
+}
+
+.intro {
+    max-width: 1440px;
+    max-height: 464px;
+    padding-top: 80px;
+}
+
+.intro p, .news p {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.pseudo-button {
+    max-width: 285px;
+    max-height: 80px;
+    padding: 30px 70px;
+    border-radius: 40px;
+
+    background-color: #D89999;
+
+    color: #FFFFFF;
+}
+
+.advantage {
+    max-width: 1440px;
+    max-height: 124px;
+    padding-top: 32px;
+}
+
+.fast-delivery {
+    background: #FFFFFF url("img/fast-delivery.svg") no-repeat;
+    width: 400px;
+}
+
+.fresh-flowers {
+    background: #FFFFFF url("img/fresh-flowers.svg") no-repeat;
+    width: 350px;
+}
+
+.photo-flowers {
+    background: #FFFFFF url("img/photo-flowers.svg") no-repeat;
+    width: 370px;
+}
+
+.fast-delivery dt, .fresh-flowers dt, .photo-flowers dt, .order h3,
+.details h3, .pay h3, .delivery h3, .reviews cite, .bolder {
+    font-family: "Montserrat-Medium", sans-serif;
+    font-weight: 500;
+}
+
+.popular {
+    max-width: 1440px;
+    max-height: 546px;
+    padding-top: 80px;
+}
+
+.title-popular, .title-order, .title-news, .title-reviews, .title-contacts {
+    font-family: "PlayfairDisplay-Bold", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+}
+
+.subtitle-popular, .price {
+    font-family: "Montserrat-Medium", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.arrow-left {
+    background: url("img/arrow.svg") no-repeat;
+    border: none;
+}
+
+.arrow-right {
+    background: url("img/arrow.svg") no-repeat;
+    transform: rotate(180deg);
+    border: none;
+}
+
+.visually-hidden {
+    opacity: 0;
+}
+
+.catalog-preview {
+    max-width: 1440px;
+    max-height: 442px;
+    padding-top: 80px;
+}
+
+.card-products1 {
+    width: 387px;
+    height: 442px;
+
+    background: linear-gradient(to top, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)),
+    url("img/sammi.jpg") no-repeat;
+
+    border-radius: 10px;
+}
+
+.card-products2 {
+    width: 387px;
+    height: 442px;
+
+    background: linear-gradient(to top, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)),
+    url("img/beautiful-peony-flowers.jpg") no-repeat;
+
+    border-radius: 10px;
+}
+
+.card-products3 {
+    width: 387px;
+    height: 442px;
+
+    background: linear-gradient(to top, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)),
+    url("img/alyssa-strohmann.jpg") no-repeat;
+
+    border-radius: 10px;
+}
+
+.title-card {
+    font-family: "PlayfairDisplay-Bold", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.text-card {
+    color: #FFFFFF;
+}
+
+.discount {
+    max-width: 1440px;
+    max-height: 391px;
+    padding-top: 80px;
+}
+
+.filling {
+    width: 1200px;
+    height: 391px;
+
+    background: #AE7C78;
+}
+
+.title-discount {
+    font-family: "PlayfairDisplay-Regular", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.filling p {
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.order-steps {
+    max-width: 1440px;
+    max-height: 232px;
+    padding-top: 80px;
+}
+
+.steps {
+    width: 1200px;
+    height: 145px;
+}
+
+.order {
+    background: #FFFFFF url("img/order.svg") no-repeat;
+    width: 285px;
+}
+
+.details {
+    background: #FFFFFF url("img/clarification-of-details.svg") no-repeat;
+    width: 285px;
+}
+
+.pay {
+    background: #FFFFFF url("img/payment.svg") no-repeat;
+    width: 285px;
+}
+
+.delivery {
+    background: #FFFFFF url("img/fast-delivery.svg") no-repeat;
+    width: 285px;
+}
+
+.news {
+    max-width: 1440px;
+    max-height: 460px;
+    padding-top: 80px;
+}
+
+.social span {
+    display: inline-block;
+    width: 32px;
+    height: 20px;
+    background-image: url("img/social.svg");
+    background-repeat: no-repeat;
+}
+
+.sprite-instagram {
+    background-position: 0 0;
+}
+
+.sprite-facebook {
+    background-position: -32px 0;
+}
+
+.sprite-twitter {
+    background-position: -64px 0;
+}
+
+.reviews {
+    max-width: 1200px;
+    max-height: 308px;
+    padding-top: 80px;
+
+    border: 1px solid #AE7C78;
+    box-sizing: border-box;
+}
+
+.contacts {
+    max-width: 1440px;
+    max-height: 645px;
+    padding-top: 80px;
+}
+
+.form-contacts {
+    width: 386px;
+    height: 520px;
+
+    background: #F7FAFC;
+    box-shadow: 0 4px 40px rgba(217, 217, 217, 0.3);
+    border-radius: 12px;
+}
+
+.page-footer {
+    max-width: 1440px;
+    max-height: 97px;
+
+    background: #AE7C78;
+}
+
+.link-footer a {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.social-footer span {
+    display: inline-block;
+    width: 32px;
+    height: 20px;
+    background-image: url("img/icons.svg");
+    background-repeat: no-repeat;
+}
