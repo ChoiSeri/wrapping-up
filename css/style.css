@@ -1,12 +1,12 @@
 body {
-    font-family: "Montserrat-Regular", sans-serif;
+    font-family: "Montserrat-Regular", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     color: #AE7C78;
 
-    background: #FFFFFF;
+    background-color: #FFFFFF;
 
     max-width: 1440px;
     max-height: 4470px;
@@ -23,8 +23,6 @@ li {
 }
 
 .page-header {
-    max-width: 1440px;
-    max-height: 64px;
     padding-top: 25px;
 }
 
@@ -36,14 +34,14 @@ li {
 }
 
 .main-heading {
-    font-family: "PlayfairDisplay-Regular", serif;
+    font-family: "PlayfairDisplay-Regular", "Times New Roman", serif;
     font-weight: normal;
     font-size: 44px;
     line-height: 59px;
 }
 
 .cursive {
-    font-family: "PlayfairDisplay-Italic", serif;
+    font-family: "PlayfairDisplay-Italic", "Times New Roman", serif;
     font-style: italic;
 }
 
@@ -52,8 +50,6 @@ li {
 }
 
 .intro {
-    max-width: 1440px;
-    max-height: 464px;
     padding-top: 80px;
 }
 
@@ -63,51 +59,54 @@ li {
 }
 
 .pseudo-button {
-    max-width: 285px;
-    max-height: 80px;
     padding: 30px 70px;
-    border-radius: 40px;
 
+    border-radius: 40px;
     background-color: #D89999;
 
     color: #FFFFFF;
 }
 
 .advantage {
-    max-width: 1440px;
-    max-height: 124px;
     padding-top: 32px;
 }
 
 .fast-delivery {
-    background: #FFFFFF url("img/fast-delivery.svg") no-repeat;
+    background-color: #FFFFFF;
+    background-image: url("../img/svg/fast-delivery.svg");
+    background-repeat: no-repeat;
+
     width: 400px;
 }
 
 .fresh-flowers {
-    background: #FFFFFF url("img/fresh-flowers.svg") no-repeat;
+    background-color: #FFFFFF;
+    background-image: url("../img/svg/fresh-flowers.svg");
+    background-repeat: no-repeat;
+
     width: 350px;
 }
 
 .photo-flowers {
-    background: #FFFFFF url("img/photo-flowers.svg") no-repeat;
+    background-color: #FFFFFF;
+    background-image: url("../img/svg/photo-flowers.svg");
+    background-repeat: no-repeat;
+
     width: 370px;
 }
 
 .fast-delivery dt, .fresh-flowers dt, .photo-flowers dt, .order h3,
 .details h3, .pay h3, .delivery h3, .reviews cite, .bolder {
-    font-family: "Montserrat-Medium", sans-serif;
+    font-family: "Montserrat-Medium", "Arial", sans-serif;
     font-weight: 500;
 }
 
 .popular {
-    max-width: 1440px;
-    max-height: 546px;
     padding-top: 80px;
 }
 
 .title-popular, .title-order, .title-news, .title-reviews, .title-contacts {
-    font-family: "PlayfairDisplay-Bold", serif;
+    font-family: "PlayfairDisplay-Bold", "Times New Roman", serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -116,7 +115,7 @@ li {
 }
 
 .subtitle-popular, .price {
-    font-family: "Montserrat-Medium", sans-serif;
+    font-family: "Montserrat-Medium", "Arial", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -124,13 +123,18 @@ li {
 }
 
 .arrow-left {
-    background: url("img/arrow.svg") no-repeat;
+    background-image: url("../img/svg/arrow.svg");
+    background-repeat: no-repeat;
+
     border: none;
 }
 
 .arrow-right {
-    background: url("img/arrow.svg") no-repeat;
+    background-image: url("../img/svg/arrow.svg");
+    background-repeat: no-repeat;
+
     transform: rotate(180deg);
+
     border: none;
 }
 
@@ -139,8 +143,6 @@ li {
 }
 
 .catalog-preview {
-    max-width: 1440px;
-    max-height: 442px;
     padding-top: 80px;
 }
 
@@ -148,8 +150,9 @@ li {
     width: 387px;
     height: 442px;
 
-    background: linear-gradient(to top, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)),
-    url("img/sammi.jpg") no-repeat;
+    background-image: linear-gradient(to top, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)),
+    url("../img/jpg/bridal-bouquet.jpg");
+    background-repeat: no-repeat;
 
     border-radius: 10px;
 }
@@ -158,8 +161,9 @@ li {
     width: 387px;
     height: 442px;
 
-    background: linear-gradient(to top, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)),
-    url("img/beautiful-peony-flowers.jpg") no-repeat;
+    background-image: linear-gradient(to top, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)),
+    url("../img/jpg/peony.jpg");
+    background-repeat: no-repeat;
 
     border-radius: 10px;
 }
@@ -168,14 +172,15 @@ li {
     width: 387px;
     height: 442px;
 
-    background: linear-gradient(to top, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)),
-    url("img/alyssa-strohmann.jpg") no-repeat;
+    background-image: linear-gradient(to top, rgba(174, 124, 120, 0.6), rgba(174, 124, 120, 0.6)),
+    url("../img/jpg/girl-with-flowers.jpg");
+    background-repeat: no-repeat;
 
     border-radius: 10px;
 }
 
 .title-card {
-    font-family: "PlayfairDisplay-Bold", serif;
+    font-family: "PlayfairDisplay-Bold", "Times New Roman", serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -190,8 +195,6 @@ li {
 }
 
 .discount {
-    max-width: 1440px;
-    max-height: 391px;
     padding-top: 80px;
 }
 
@@ -199,30 +202,26 @@ li {
     width: 1200px;
     height: 391px;
 
-    background: #AE7C78;
+    background-color: #AE7C78;
 }
 
 .title-discount {
-    font-family: "PlayfairDisplay-Regular", serif;
+    font-family: "PlayfairDisplay-Regular", "Times New Roman", serif;
     font-style: normal;
     font-weight: normal;
     font-size: 44px;
     line-height: 59px;
     letter-spacing: 0.02em;
-
     color: #FFFFFF;
 }
 
 .filling p {
     font-size: 24px;
     line-height: 29px;
-
     color: #FFFFFF;
 }
 
 .order-steps {
-    max-width: 1440px;
-    max-height: 232px;
     padding-top: 80px;
 }
 
@@ -232,36 +231,48 @@ li {
 }
 
 .order {
-    background: #FFFFFF url("img/order.svg") no-repeat;
+    background-color: #FFFFFF;
+    background-image: url("../img/svg/order.svg");
+    background-repeat: no-repeat;
+
     width: 285px;
 }
 
 .details {
-    background: #FFFFFF url("img/clarification-of-details.svg") no-repeat;
+    background-color: #FFFFFF;
+    background-image: url("../img/svg/clarification-of-details.svg");
+    background-repeat: no-repeat;
+
     width: 285px;
 }
 
 .pay {
-    background: #FFFFFF url("img/payment.svg") no-repeat;
+    background-color: #FFFFFF;
+    background-image: url("../img/svg/payment.svg");
+    background-repeat: no-repeat;
+
     width: 285px;
 }
 
 .delivery {
-    background: #FFFFFF url("img/fast-delivery.svg") no-repeat;
+    background-color: #FFFFFF;
+    background-image: url("../img/svg/fast-delivery.svg");
+    background-repeat: no-repeat;
+
     width: 285px;
 }
 
 .news {
-    max-width: 1440px;
-    max-height: 460px;
     padding-top: 80px;
 }
 
 .social span {
     display: inline-block;
+
     width: 32px;
     height: 20px;
-    background-image: url("img/social.svg");
+
+    background-image: url("../img/svg/sprites-footer.svg");
     background-repeat: no-repeat;
 }
 
@@ -278,17 +289,13 @@ li {
 }
 
 .reviews {
-    max-width: 1200px;
-    max-height: 308px;
-    padding-top: 80px;
+    margin-top: 80px;
 
     border: 1px solid #AE7C78;
     box-sizing: border-box;
 }
 
 .contacts {
-    max-width: 1440px;
-    max-height: 645px;
     padding-top: 80px;
 }
 
@@ -296,16 +303,13 @@ li {
     width: 386px;
     height: 520px;
 
-    background: #F7FAFC;
+    background-color: #F7FAFC;
     box-shadow: 0 4px 40px rgba(217, 217, 217, 0.3);
     border-radius: 12px;
 }
 
 .page-footer {
-    max-width: 1440px;
-    max-height: 97px;
-
-    background: #AE7C78;
+    background-color: #AE7C78;
 }
 
 .link-footer a {
@@ -315,8 +319,10 @@ li {
 
 .social-footer span {
     display: inline-block;
+
     width: 32px;
     height: 20px;
-    background-image: url("img/icons.svg");
+
+    background-image: url("../img/svg/sprites-news.svg");
     background-repeat: no-repeat;
 }
