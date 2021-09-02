@@ -15,6 +15,10 @@ body {
     margin: 0;
 }
 
+button {
+    cursor: pointer;
+}
+
 a {
     cursor: pointer;
     text-decoration: none;
@@ -35,7 +39,7 @@ dd {
 }
 
 .page-header {
-    padding-top: 25px;
+    padding-top: 26px;
 }
 
 .main-nav {
@@ -55,7 +59,7 @@ dd {
 
 .link-nav a {
     display: block;
-    padding: 16px;
+    padding: 15px;
 }
 
 .content-intro {
@@ -115,10 +119,17 @@ dd {
 }
 
 .pseudo-button {
+    width: 285px;
+    height: 80px;
+
     padding: 30px 70px;
+
+    box-sizing: border-box;
 
     border-radius: 40px;
     background-color: #D89999;
+
+    text-align: center;
 
     color: #FFFFFF;
 }
@@ -152,7 +163,23 @@ dd {
 }
 
 .popular {
-    padding-top: 80px;
+    padding-top: 50px;
+}
+
+.slider-item {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 323px;
+}
+
+.slider-item-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-controls {
+    text-align: center;
 }
 
 .title-popular, .title-order, .title-news, .title-reviews, .title-contacts {
@@ -164,6 +191,12 @@ dd {
     letter-spacing: 0.02em;
 }
 
+.title-popular {
+    padding-bottom: 10px;
+
+    text-align: center;
+}
+
 .subtitle-popular, .price {
     font-family: "Montserrat-Medium", "Arial", sans-serif;
     font-style: normal;
@@ -173,19 +206,25 @@ dd {
 }
 
 .arrow-left {
+    background-color: #FFFFFF;
     background-image: url("../img/svg/arrow.svg");
     background-repeat: no-repeat;
 
     border: none;
+
+    padding: 0;
 }
 
 .arrow-right {
+    background-color: #FFFFFF;
     background-image: url("../img/svg/arrow.svg");
     background-repeat: no-repeat;
 
     transform: rotate(180deg);
 
     border: none;
+
+    padding: 0;
 }
 
 .visually-hidden {
@@ -193,7 +232,7 @@ dd {
 }
 
 .catalog-preview {
-    padding-top: 75px;
+    padding-top: 80px;
 }
 
 .cards-list {
@@ -321,7 +360,36 @@ dd {
 }
 
 .news {
+    display: grid;
+    grid-template-columns: 387px 692px;
+    gap: 121px;
+
+    margin: 0 120px;
     padding-top: 80px;
+}
+
+.title-news {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: 285px 387px;
+    grid-template-rows: 220px 220px;
+    gap: 20px;
+}
+
+.content-news {
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 20px;
 }
 
 .social span {
